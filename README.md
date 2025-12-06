@@ -21,6 +21,7 @@
   - Git clone 시 password 물어보면 내가 생성한 토큰 입력하면됨(토큰 이름이 Mac air 인데 걍 mac으로 발꾸자)
   - root 에  `.config` `.zshrc` 이동
 - `source .zshrc'
+- `help` : 명령어 다 보여줌
 - Mise 설치(miss use -g node@25 / mise use -g java@25)
 - Postgresql, postman install
 - Vscode install
