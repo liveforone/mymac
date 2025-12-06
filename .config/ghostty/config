@@ -1,0 +1,9 @@
+window-theme = dark
+theme = Catppuccin mocha 
+background-opacity = 0.8
+background-blur-radius = 10
+font-family = Sarasa Term K Nerd Font
+font-size = 18
+adjust-cell-width = -6%
+gtk-titlebar = false
+gtk-single-instance = true
