@@ -1,5 +1,5 @@
 # my mac setting by chankim
-
+> symbolic link 사용 안함
 ## mac initial setting
 
 ### if mac mini
