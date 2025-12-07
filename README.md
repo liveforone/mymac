@@ -23,6 +23,8 @@
 - `source .zshrc'
 - `help` : 명령어 다 보여줌
 - Mise 설치(miss use -g node@25 / mise use -g java@25)
+    - mise doctor 해서 zsh버전으로 active 시켜준다음에 java —version / node -v해서 버전 뜨는지 확인
+    - npm install -g @google/gemini-cli -> google 로그인하고 끄기. / 프로젝트 내에서 gemini 치면 바로 뜸
 - Postgresql, postman install
 - Vscode install
     - Color highlights 
@@ -38,6 +40,7 @@
     - Korean language 
     - One dark
     - Rainbow bracket
+    - ideavim
     - sticky scroll 끄기
     - 어노테이션 프로세서
     - gradle 설정
@@ -72,7 +75,7 @@
 - brew cleanup —prune=all
 - brew list
 
-### ghostly
+### ghostty
 - Cmd + t : new tap
 - Cmd + w : close tap
 - Cmd + shift + d : 가로 분할
