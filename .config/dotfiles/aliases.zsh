@@ -5,7 +5,11 @@ alias help='cat ~/.config/dotfiles/aliases.zsh'
 alias rc='vim $HOME/.zshrc'
 alias s='source ~/.zshrc'
 
+# find_files
+alias fd="fdfind"
+
 # dir related
+alias md='mkdir '
 mc() {
   mkdir -p "$1"
   cd "$1"

@@ -28,6 +28,9 @@
   - root 에 `.config` `.zshrc` 이동
 - `source .zshrc`
 - `help` : 커스텀한 zsh 명령어 다 보여줌
+- `brew install ripgrep`
+- `brew install neovim`
+- `brew install fd`
 - Mise 설치
   - `miss use -g node@25`
   - `mise use -g java@25`
@@ -52,7 +55,6 @@
     - sticky scroll 끄기
     - 어노테이션 프로세서
     - gradle 설정
-- YouTube 앱으로 만들어서 독에설치
 - iCloud 필요없는거 빼기
 - Dock 
     - 응용 프로그램 아이콘 속으로 윈도우 최소화

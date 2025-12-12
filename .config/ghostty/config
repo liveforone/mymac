@@ -7,3 +7,4 @@ font-size = 18
 adjust-cell-width = -6%
 gtk-titlebar = false
 gtk-single-instance = true
+clipboard-trim-trailing-spaces = true

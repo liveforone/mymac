@@ -13,7 +13,23 @@
 ## ghostty
 - `Cmd + t` : new tap
 - `Cmd + w` : close tap
+- `Cmd + d` : Vertical split
 - `Cmd + shift + d` : Horizontal split
+- `Cmd + opt + arrowKey` : move pane
+- `Cmd + backspace` : erase all command line
+
+## nvim & plugins
+- `space + e` : Neotree toggle
+- `Control + h/l` : move Neotree and editor
+    - a : new file/dir
+    - d : delete file/dir
+    - r : rename file/dir
+    - y : yanking file/dir
+    - x : cut file/dir
+    - p : paste file/dir
+    - m : move file/dir
+- `space + ff` : fuzzy finding
+- `space + fg` : live grep
 
 ## zsh & git shortcut command
 
