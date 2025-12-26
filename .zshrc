@@ -2,3 +2,6 @@ export PROMPT='%n@%m %/ %# '
 if [ -f ~/.config/dotfiles/aliases.zsh ]; then
 	source ~/.config/dotfiles/aliases.zsh
 fi
+
+eval "$(mise activate zsh)"
+
