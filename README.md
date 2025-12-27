@@ -25,7 +25,7 @@
   - `git clone mymac`
   - Git clone 시 password 물어보면 내가 생성한 토큰 입력하면됨
   - 만약 토큰이 없으면 developer setting에서 classic token 만들면 됨
-  - root 에 `.config` `.zshrc` 이동
+  - root 에 `.config` `.zshrc` `.zprofile` 이동
 - `source .zshrc`
 - `help` : 커스텀한 zsh 명령어 다 보여줌
 - `brew install ripgrep`
@@ -47,6 +47,7 @@
     - Prettier
     - Vim
     - `Cmd + shift + p` -> code 검색후 path 추가
+    - `cmd + shift + p` -> (not default) open keyboard shortcut에서 vim toggle mode `control v  + control t`로 변경
 - IntelliJ community install
     - Korean language 
     - One dark
