@@ -120,6 +120,32 @@ hs.hotkey.bind(
     hs.eventtap.keyStroke({}, "delete", 0)
   end
 )
+
+-- Ctrl + Cmd + h → Home
+hs.hotkey.bind(
+  {"ctrl", "cmd"},
+  "h",
+  function()
+    hs.eventtap.keyStroke({}, "home", 0)
+  end,
+  nil,
+  function()
+    hs.eventtap.keyStroke({}, "home", 0)
+  end
+)
+
+-- Ctrl + Cmd + l → End
+hs.hotkey.bind(
+  {"ctrl", "cmd"},
+  "l",
+  function()
+    hs.eventtap.keyStroke({}, "end", 0)
+  end,
+  nil,
+  function()
+    hs.eventtap.keyStroke({}, "end", 0)
+  end
+)
 ```
 
 ## then - ENG
@@ -237,6 +263,32 @@ hs.hotkey.bind(
   nil,
   function()
     hs.eventtap.keyStroke({}, "delete", 0)
+  end
+)
+
+-- Ctrl + Cmd + h → Home
+hs.hotkey.bind(
+  {"ctrl", "cmd"},
+  "h",
+  function()
+    hs.eventtap.keyStroke({}, "home", 0)
+  end,
+  nil,
+  function()
+    hs.eventtap.keyStroke({}, "home", 0)
+  end
+)
+
+-- Ctrl + Cmd + l → End
+hs.hotkey.bind(
+  {"ctrl", "cmd"},
+  "l",
+  function()
+    hs.eventtap.keyStroke({}, "end", 0)
+  end,
+  nil,
+  function()
+    hs.eventtap.keyStroke({}, "end", 0)
   end
 )
 ```
