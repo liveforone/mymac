@@ -107,6 +107,19 @@ for key, arrow in pairs(keyMap) do
     end
   )
 end
+
+-- Ctrl + f → Backspace
+hs.hotkey.bind(
+  hyper,
+  "f",
+  function()
+    hs.eventtap.keyStroke({}, "delete", 0)
+  end,
+  nil,
+  function()
+    hs.eventtap.keyStroke({}, "delete", 0)
+  end
+)
 ```
 
 ## then - ENG
@@ -213,6 +226,19 @@ for key, arrow in pairs(keyMap) do
     end
   )
 end
+
+-- Ctrl + f → Backspace
+hs.hotkey.bind(
+  hyper,
+  "f",
+  function()
+    hs.eventtap.keyStroke({}, "delete", 0)
+  end,
+  nil,
+  function()
+    hs.eventtap.keyStroke({}, "delete", 0)
+  end
+)
 ```
 
 ## Command Cheat Sheet
