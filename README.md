@@ -79,6 +79,35 @@
   - 보기에서 경로막대 보기
   - 보기에서 상태막대 보기
   - 정렬부분을 줄 두개있는 아이콘으로 변경(칸 나눠서 폴더 보여주기)
+- hammerspoon
+  - `brew install --cask hammerspoon`
+  - `mc ./hammerspoon`
+  - `vim init.lua`
+
+```lua
+local hyper = {"ctrl"}
+
+local keyMap = {
+  h = "left",
+  j = "down",
+  k = "up",
+  l = "right",
+}
+
+for key, arrow in pairs(keyMap) do
+  hs.hotkey.bind(
+    hyper,
+    key,
+    function()
+      hs.eventtap.keyStroke({}, arrow, 0)
+    end,
+    nil,
+    function()
+      hs.eventtap.keyStroke({}, arrow, 0)
+    end
+  )
+end
+```
 
 ## then - ENG
 
@@ -156,6 +185,35 @@
   - View → Show Path Bar
   - View → Show Status Bar
   - Change sorting style to the icon with two lines
+- hammerspoon
+  - `brew install --cask hammerspoon`
+  - `mc ./hammerspoon`
+  - `vim init.lua`
+
+```lua
+local hyper = {"ctrl"}
+
+local keyMap = {
+  h = "left",
+  j = "down",
+  k = "up",
+  l = "right",
+}
+
+for key, arrow in pairs(keyMap) do
+  hs.hotkey.bind(
+    hyper,
+    key,
+    function()
+      hs.eventtap.keyStroke({}, arrow, 0)
+    end,
+    nil,
+    function()
+      hs.eventtap.keyStroke({}, arrow, 0)
+    end
+  )
+end
+```
 
 ## Command Cheat Sheet
 
