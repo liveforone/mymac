@@ -39,6 +39,8 @@
   - `mise use -g java@25`
   - `mise doctor` 해서 zsh버전으로 active 시켜준다음에 `java -—version` / `node -v` 해서 버전 확인
     - `npm install -g @google/gemini-cli` -> google 로그인하고 끄기. / 프로젝트 내에서 gemini 치면 바로 뜸
+    - `npm i -g typescript typescript-language-server` -> neo vim lsp 를 위해서 필요함.
+    - neovim 설정은 [링크](https://github.com/afazio1/nvim/tree/main)를 참고하였다.
 - Postgresql, postman install
 - Vscode install
   - Color highlights
@@ -174,6 +176,8 @@ hs.hotkey.bind(
   - Run `mise doctor`, activate for zsh, then verify with `java --version` / `node -v`.
 - `npm install -g @google/gemini-cli` → Sign in with Google → Close.
   - Now you can type gemini in any project.
+  - `npm i -g typescript typescript-language-server` -> For neo vim ts lsp.
+  - [Neovim setting Reference](https://github.com/afazio1/nvim/tree/main)
 - Install PostgreSQL and Postman.
 - Install VS Code
   - Extensions:

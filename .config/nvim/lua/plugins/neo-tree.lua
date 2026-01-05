@@ -8,5 +8,18 @@ return {
       "nvim-tree/nvim-web-devicons", -- optional, but recommended
     },
     lazy = false, -- neo-tree will lazily load itself
+    keys = {
+      {
+        "<leader>e",
+        function()
+          require("neo-tree.command").execute({ 
+            source = "filesystem", 
+            toggle = true, 
+            reveal = true,
+          })
+        end,
+        desc = "Neo-tree toggle",
+      },
+    }
   }
 }

@@ -1,13 +1,11 @@
-local mapKey = require("utils.keyMapper").mapKey
+-- Keymaps
 
--- Neotree toggle
-mapKey('<leader>e', ':Neotree toggle<cr>')
+-- Leader
+vim.g.mapleader = " "
+vim.g.maplocalleader = "\\"
 
--- pane navigation
-mapKey('<C-h>', '<C-w>h') --left
-mapKey('<C-j>', '<C-w>j') --down
-mapKey('<C-k>', '<C-w>k') --up
-mapKey('<C-l>', '<C-w>l') --right
+-- Up, Down
+vim.keymap.set('n', 'j', 'gj', { desc = 'Up', noremap = true})
+vim.keymap.set('n', 'k', 'gk', { desc = 'Down', noremap = true})
 
--- clear search hightlight
-mapKey('<leader>h', ':nohlsearch<CR>')
+

@@ -20,7 +20,7 @@
 
 ## nvim & plugins
 - `space + e` : Neotree toggle
-- `Control + h/l` : move Neotree and editor
+- `Control + w + h/l` : move Neotree and editor
     - a : new file/dir
     - d : delete file/dir
     - r : rename file/dir
@@ -30,6 +30,10 @@
     - m : move file/dir
 - `space + ff` : fuzzy finding
 - `space + fg` : live grep
+- `:Lazy sync` : Install
+- `:Lasy update` : Update
+- `:sp` : split
+- `:vsp` : vertical split
 
 ## zsh & git shortcut command
 
