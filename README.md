@@ -14,9 +14,9 @@
 - Launchpad 단축키 `opt + space` 로 변경
 - 미션컨트롤에서 데스크탑보기를 `opt + d`로 변경
 - 스포트라이트에서 스크롤막대 동작에서 항상보기체크
-- 로지옵션 플러스에서 마우스 설정하기
 - Mos 설치 후 보안설정에서 앱 허용해주고
   - 부드러운 스크롤,
+  - 스크롤 반전,
   - 시작시 실행,
   - 메뉴바 숨기기 체크,
   - 고급의 스크롤 속도를 1.1설정
@@ -157,9 +157,9 @@ hs.hotkey.bind(
 - Change Launchpad shortcut to `Option + Space`.
 - Change Show Desktop shortcut in Mission Control to `Option + D`.
 - In System Settings → Accessibility, enable Always show scroll bars.
-- Configure mouse settings in Logi Options+.
-  - Install Mos, then allow it in Security settings,
+- Install Mos, then allow it in Security settings,
   - enable Smooth Scrolling,
+  - enable scroll reversal,
   - Launch at startup,
   - Hide menu bar icon,
   - set Scroll Speed to 1.1 under Advanced.
