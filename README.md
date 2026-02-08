@@ -31,9 +31,6 @@
   - root 에 `.config` `.zshrc` `.zprofile` 이동
 - `source .zshrc`
 - `help` : 커스텀한 zsh 명령어 다 보여줌
-- `brew install ripgrep`
-- `brew install neovim`
-- `brew install fd`
 - Mise 설치
   - `miss use -g node@25`
   - `mise use -g java@25`
@@ -176,8 +173,6 @@ hs.hotkey.bind(
   - Run `mise doctor`, activate for zsh, then verify with `java --version` / `node -v`.
 - `npm install -g @google/gemini-cli` → Sign in with Google → Close.
   - Now you can type gemini in any project.
-  - `npm i -g typescript typescript-language-server` -> For neo vim ts lsp.
-  - [Neovim setting Reference](https://github.com/afazio1/nvim/tree/main)
 - Install PostgreSQL and Postman.
 - Install VS Code
   - Extensions:
