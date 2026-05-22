@@ -1,14 +1,14 @@
 return {
-  'nvim-telescope/telescope.nvim', tag = '0.1.8',
-  dependencies = { 
-    'nvim-lua/plenary.nvim',
-    'nvim-treesitter/nvim-treesitter',
-    'nvim-tree/nvim-web-devicons',
+  "nvim-telescope/telescope.nvim",
+  keys = {
+    { "<leader>/", false },
+    { "<leader>ff", "<cmd>Telescope find_files<cr>", desc = "Find Files" },
+    {
+      "<leader>fp",
+      function()
+        require("telescope.builtin").find_files({ cwd = require("lazy.core.config").options.root })
+      end,
+      desc = "Find Plugin File",
+    },
   },
-  config = function()
-    local telescope = require("telescope").setup({})
-    local builtin = require('telescope.builtin')
-    vim.keymap.set('n', '<leader>ff', builtin.find_files, { desc = 'Telescope find files' })
-    vim.keymap.set('n', '<leader>fg', builtin.live_grep, { desc = 'Telescope live grep' })
-  end,
 }

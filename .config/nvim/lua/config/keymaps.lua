@@ -1,11 +1,3 @@
--- Keymaps
-
--- Leader
-vim.g.mapleader = " "
-vim.g.maplocalleader = "\\"
-
--- Up, Down
-vim.keymap.set('n', 'j', 'gj', { desc = 'Up', noremap = true})
-vim.keymap.set('n', 'k', 'gk', { desc = 'Down', noremap = true})
-
-
+-- Keymaps are automatically loaded on the VeryLazy event
+-- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
+-- Add any additional keymaps here

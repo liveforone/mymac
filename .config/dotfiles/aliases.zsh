@@ -5,9 +5,6 @@ alias help='cat ~/.config/dotfiles/aliases.zsh'
 alias rc='vim $HOME/.zshrc'
 alias s='source ~/.zshrc'
 
-# find_files
-alias fd="fdfind"
-
 # dir related
 alias md='mkdir '
 mc() {
@@ -22,6 +19,8 @@ alias l='ls -lah'
 # git related
 alias ga='git add'
 alias gaa='git add .'
+alias gs='git status'
+alias gd='git diff --staged'
 alias gc='git commit -m '
 alias gch='git checkout -b '
 alias gchm='git checkout main'
@@ -29,3 +28,6 @@ alias gba='git branch --all'
 alias gbd='git branch -D '
 alias gp='git push origin '
 alias gpd='git push origin --delete '
+
+# brew related
+alias buc='brew update && brew cleanup'
