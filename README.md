@@ -37,7 +37,10 @@
   - `mise doctor` 해서 zsh버전으로 active 시켜준다음에 `java -—version` / `node -v` 해서 버전 확인
     - `npm install -g @google/gemini-cli` -> google 로그인하고 끄기. / 프로젝트 내에서 gemini 치면 바로 뜸
     - `npm i -g typescript typescript-language-server` -> neo vim lsp 를 위해서 필요함.
-    - neovim 설정은 [링크](https://github.com/afazio1/nvim/tree/main)를 참고하였다.
+- Neovim
+  - `brew install neovim`
+  - `nvim` : nvim setting 대로 자동 설치
+  - 이외 명령어는 nvim directory 참조
 - Postgresql, postman install
 - Vscode install
   - Color highlights
@@ -173,6 +176,9 @@ hs.hotkey.bind(
   - Run `mise doctor`, activate for zsh, then verify with `java --version` / `node -v`.
 - `npm install -g @google/gemini-cli` → Sign in with Google → Close.
   - Now you can type gemini in any project.
+- Install Neovim
+  - `brew install neovim`
+  - `nvim` : auto install with lazyvim
 - Install PostgreSQL and Postman.
 - Install VS Code
   - Extensions:
@@ -295,8 +301,3 @@ hs.hotkey.bind(
 ## Command Cheat Sheet
 
 - [Command Cheat Sheet of Mac os and other lib](./MAC_COMMAND.md)
-
-## Caution of Mac updates
-
-- 맥은 함부로 업데이트 하지 않는다. 업데이트가 나오면 나중에 문제들이 해결되고 혹은 문제들이 나온 후 경과를 지켜보고 업데이트 한다.
-- Do not update a Mac right away. When an update is released, wait and monitor whether issues appear and get resolved before updating.

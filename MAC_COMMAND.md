@@ -1,16 +1,19 @@
 # Mac Command
 
 ## mise
+
 - `mise current`
 - `mise upgrade`
 - `mise self-update` : mise version update
 
 ## brew
+
 - `brew update && upgrade`
 - `brew cleanup —prune=all`
 - `brew list`
 
 ## ghostty
+
 - `Cmd + t` : new tap
 - `Cmd + w` : close tap
 - `Cmd + d` : Vertical split
@@ -19,17 +22,29 @@
 - `Cmd + backspace` : erase all command line
 
 ## nvim & plugins
-- `space + e` : Neotree toggle
-- `Control + w + h/l` : move Neotree and editor
-    - a : new file/dir
-    - d : delete file/dir
-    - r : rename file/dir
-    - y : yanking file/dir
-    - x : cut file/dir
-    - p : paste file/dir
-    - m : move file/dir
+
+### Neotree
+
+- `space` + `e` : open/close neo
+- a : new file/dir
+- d : delete file/dir
+- r : rename file/dir
+
+### Telescope
+
 - `space + ff` : fuzzy finding
-- `space + fg` : live grep
+- `space + fp` : live grep
+
+### Buffer
+>
+> Buffer is not plugins
+
+- `shift` + `h` : move left tab
+- `shift` + `l` : move right tab
+- `space` + `bd` : close tab
+
+### Lazy
+
 - `:Lazy sync` : Install
 - `:Lasy update` : Update
 - `:sp` : split
