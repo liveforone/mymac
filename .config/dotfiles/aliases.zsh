@@ -30,4 +30,4 @@ alias gp='git push origin '
 alias gpd='git push origin --delete '
 
 # brew related
-alias buc='brew update && brew cleanup'
+alias buc='brew update && brew upgrade && brew cleanup'
